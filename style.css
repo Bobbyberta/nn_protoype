@@ -1,0 +1,80 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #202020;
+
+}
+
+p{
+    font-family: Arial;
+    font-size: 18px;
+
+}
+
+#block {
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    align-self: center;
+    height: 100px;
+    width: 75%;
+    font-family: Helvetica;
+    font-size: 50px;
+
+}
+
+#play {
+    margin: auto;
+    padding: 5px;
+    color: white;
+    align-self: center;
+    height: 25%;
+    width: 25%;
+    text-align: center;
+}
+
+#playText{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+#main{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    padding: 5px;
+    align-self: center;
+    height: 50%;
+    width: 75%;
+    text-align: center;
+}
+
+.myButton {
+    background-color:black;
+    border-radius:5px;
+    border:1px solid #566963;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Helvetica;
+    font-size:15px;
+    font-weight:bold;
+    padding:11px 23px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background-color:#6c7c7c;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
